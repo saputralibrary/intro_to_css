@@ -1,22 +1,59 @@
+/* Universal selector */
+* {
+    color: purple;
+}
+
+/* Type selectors */
 div {
     color: white;
 }
 
+/* Class selectors */
 .alert-text {
     color: red;
 }
 
+/* ID selectors */
 #title {
     background-color: red;
 }
 
-.read, 
-.unread {
-    
+/* The grouping selector */
+.read, .unread{
     color: white;
     background-color: black;
 }
 
+.read {
+    /* Several unique declarations */
+}
+.unread {
+    /* Several unique declarations */
+}
+
+/* Chaining selector */
 .subsection.header {
     color: red;
+}
+
+.subsection#preview {
+    color: blue;
+}
+
+/* Descendant combinator */
+.ancestor.contentns {
+    /* Some declarations */
+}
+
+/* Color and background-color */
+p {
+    color: #1100ff;
+}
+
+p {
+    color: rgb(100, 0, 127);
+}
+
+p {
+    color: hsl(15, 82%, 56%);
 }
