@@ -57,3 +57,9 @@ p {
 p {
     color: hsl(15, 82%, 56%);
 }
+
+/* Image height and width */
+img {
+    height: auto;
+    width: 500px;
+}
